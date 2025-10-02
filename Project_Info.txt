@@ -1,0 +1,37 @@
+
+----------------------------------------------------------------------------------
+ERORRRRRRR
+----------------------------------------------------------------------------------
+
+Error: error:0308010C:digital envelope routines::unsupported
+    at new Hash (node:internal/crypto/hash:68:19)
+    at Object.createHash (node:crypto:138:10)
+
+
+at F:\Projects mrcaption49\Review Done - DJANGO_REACT_APNA_VERSION\DjangoReact APNAVERSION\DjangoReact23002021\frontend\node_modules\babel-loader\lib\index.js:59:103 {
+  opensslErrorStack: [ 'error:03000086:digital envelope routines::initialization error' ],   
+  library: 'digital envelope routines',
+  reason: 'unsupported',
+  code: 'ERR_OSSL_EVP_UNSUPPORTED'
+
+
+----------------------------------------------------------------------------------
+
+
+
+----------------------------------------------------------------------------------
+SOLUTION.............
+----------------------------------------------------------------------------------
+"start": "react-scripts --openssl-legacy-provider start",	
+"build": "react-scripts --openssl-legacy-provider build",
+
+change the setting as above as we are getting 
+mentioned error will resolve after this chnages
+
+Kindly re run the scipt as mentioned if you are getting the same error like this -:
+
+==> npm install react-scripts@latest
+and also add this in package.json file with npm start 
+==> "start": "react-scripts --openssl-legacy-provider start",
+
+----------------------------------------------------------------------------------

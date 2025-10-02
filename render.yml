@@ -1,0 +1,27 @@
+services:
+  - type: web
+    name: frontend
+    env: node
+    buildCommand: |
+      cd frontend && npm install && npm run build
+    startCommand: npx serve -s build
+
+  - type: web
+    name: backend
+    env: python
+    buildCommand: |
+      pip install -r requirements.txt &&
+      python manage.py collectstatic --noinput &&
+      python manage.py migrate
+    startCommand: gunicorn backend.wsgi:application --bind 0.0.0.0:10000
+    envVars:
+      - key: DATABASE_URL
+        value: postgresql://productiondatabase_ljd3_user:4ar3CBLIRZtQa27V3myUQ4VCTKxanqmA@dpg-d2q2ev56ubrc73csplog-a.oregon-postgres.render.com/productiondatabase_ljd3
+      - key: AWS_ACCESS_KEY_ID
+        value: AKIAZQ3DOPTF5W267CYG
+      - key: AWS_SECRET_ACCESS_KEY
+        value: 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
+      - key: SECRET_KEY
+        sync: false
+      - key: DJANGO_SETTINGS_MODULE
+        value: backend.settings

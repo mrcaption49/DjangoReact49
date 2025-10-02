@@ -1,0 +1,81 @@
+Last Updated===> 31/08/2025......
+
+----------------------------------------------------------------------------------
+START
+----------------------------------------------------------------------------------
+
+create super user in djando-admin
+Username and password for Django admin page functionality
+http://127.0.0.1:8000/admin/
+
+Username - django49
+password - django49
+
+
+
+
+DW5600RL-1
+
+₹7,995
+G-SHOCK Description:
+An ever-popular classic that carries on the very first G-SHOCK design. The original color scheme is faithfully reproduced with touches of G-SHOCK red, blue, and yellow representing its key features.
+
+
+
+
+AE-1200WHL-5AV
+
+₹3,995
+G-SHOCK Description:
+Bold style, practical functionality — a new take on multifunctional digital watch design inspired by the love of gadgetry. The digital dial on the upper left keeps the time back home on constant display, even as you use features like the stopwatch. The world map at the upper right synchronizes with the current time on the LCD below so you can easily keep track of where you are on the journey.
+
+
+
+GA2100BCE‑1A
+
+₹9,995
+G‑SHOCK Description:
+Street-smart utilitarian and nature-minded at the same time — this G-SHOCK with Cordura nylon band checks all the boxes. The fashionable all-black design is complemented by a band made of environmentally-friendly Cordura nylon, creating a cool, versatile look that takes you seamlessly from work to play..
+
+
+DW-5600UE-1
+
+₹6,295
+G-SHOCK Description:
+The origin story of toughness begins with this iconic square design and shock resistance. A classic reimagined with modern functions.
+
+----------------------------------------------------------------------------------
+05 APRIL 2025
+----------------------------------------------------------------------------------
+
+
+THIS IS WITH HOME_SCREEN AND PRODUCT_SCREEN  WITH DJANGO AND REACT
+FIRST GO TO PROJECT FOLDER 
+
+IN ONE TERNMINAL
+THEN ACTIVATE THE VIRTUAL ENVIRONMENT
+CD BACKEND 
+THEN PYTHON MANAGE.PY RUNSERVERE
+
+
+
+----------------------------------------------------------------------------------
+
+
+
+IN ANOTHER TERMINAL
+CD FRONTEND 
+NPM START
+
+
+
+----------------------------------------------------------------------------------
+END
+----------------------------------------------------------------------------------
+
+
+
+
+
+
+
